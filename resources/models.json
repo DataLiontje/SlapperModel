@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "ExampleDog",
+    "geometry_file": "ExampleDog.json",
+    "geometry_identifier": "geometry.exampledog",
+    "texture_file": "ExampleDog.png"
+  }
+]
