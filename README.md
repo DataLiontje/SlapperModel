@@ -1,4 +1,4 @@
-# DoorBell
+# SlapperModels
 Poggit: [![](https://poggit.pmmp.io/shield.state/SlapperModels)](https://poggit.pmmp.io/p/DoorBell)
 
 Slapper Addon plugin to add custom models to your slapper humans.
