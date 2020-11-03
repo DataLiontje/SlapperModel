@@ -11,7 +11,7 @@ Slapper Addon plugin to add custom models to your slapper humans.
 ### Permissions:
 | Permission | Description | default |
 | --- | --- | --- |
-| sm.command.setslappermodel | Access to the /setslappermodel command | OP |
+| slappermodels.command.setslappermodel | Access to the /setslappermodel command | OP |
 
 ### How to use this plugin
 
