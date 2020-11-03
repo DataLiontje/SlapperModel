@@ -34,7 +34,7 @@ class Main extends PluginBase{
         $this->getServer()->getPluginManager()->registerEvents(new EventListener(), $this);
 
 		// Register Command
-        $this->getServer()->getCommandMap()->register("setslappermodel", new SetSlapperModelCommand("setslappermodel", $this));
+        $this->getServer()->getCommandMap()->register($this->getName(), new SetSlapperModelCommand("setslappermodel", $this));
 
         // Save Resources
         $this->saveResource("Models/ExampleDog.json");

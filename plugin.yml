@@ -9,6 +9,6 @@ depend:
  - Slapper
 
 permissions:
- sm.command.setslappermodel:
+ slappermodel.command.setslappermodel:
   default: op
   description: SlapperModel setslappermodel permission
