@@ -17,9 +17,9 @@ class SetSlapperModelCommand extends PluginCommand
 {
     public function __construct(string $name, Plugin $owner)
     {
-        $this->setDescription("Set Slapper human model");
-        $this->setPermission("slappermodels.command.setslappermodel");
         parent::__construct($name, $owner);
+        $this->setPermission("slappermodels.command.setslappermodel");
+        $this->setDescription("Set Slapper human model");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
